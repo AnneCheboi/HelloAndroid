@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/udacity"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/udacity"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/street"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/cellnumber"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+</LinearLayout>
